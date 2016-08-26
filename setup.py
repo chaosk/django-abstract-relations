@@ -14,7 +14,7 @@ def read(file_name):
         return open_file.read()
 
 
-PACKAGE = 'django_abstract_relations'
+PACKAGE = 'abstract_relations'
 NAME = 'Django-Abstract-Relations'
 DESCRIPTION = 'Dynamically generated customizable through model for abstract many-to-many relations in Django'
 AUTHOR = 'Miron Olszewski'
