@@ -9,7 +9,7 @@ def categories(db):
     from tests.testproject.models import Category
 
     for i in range(1, 10):
-         Category.objects.create(name='category_%s' % i)
+        Category.objects.create(name='category_%s' % i)
 
     return Category.objects.all()
 
