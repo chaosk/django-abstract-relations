@@ -28,12 +28,9 @@ after_success:
 - coveralls
 deploy:
   - provider: pypi
-    distributions: sdist
-    server: https://testpypi.python.org/pypi
     user: molski
     password:
       secure: UqnqXntG0i1U2i8YYOjaZnn8dltFbNPCiKECPwPLmSB/a8tqVfvxuRPuuMD1tkurRRrvCf37u3xmi+wFkOv1D3AKxB3C43jbiUGkPXH0uvQm2fGM47RtSp6NlUT/0X+vsfnDMrKvjwh9lIxUrp1IYgm1TEnKRrCae/ne2fQBNsaIPb+RS2ecssJ7ZAIRO8Y8Q8Kw9a25Yg6mQ9W0a2VZ7Dl3ewWjlthCECB/vbOibauWBpQECoXIrENogVysG+Nr0q74V46e+sY4ufD/eKBE6rNNQKiMoG53Z2JEBCeQaHkVAaDEeKXnF1FqSt2RAxCe8WZ64xaWbjpo2MptBOXO4u8g2pR51O+DqeQCAW2l+V8p2shY3px1EWVG+LQfBHZhoOwveqlwS5WuOZXRbvF3aMh4g3/R3tTe8FqyyvlRDTRuBsm08mllYdbXwYa55e9RZiG8CQh3gPBULG0tIxnC+amZT2sC3R2Bx6i6bcS9fNa9yvPTHI5+g3evwMboNw3mZQAW+b/UpE+dkwa94kiXxYnKI6Dd1ElHZvmtB/xI09S7YgFNvkafqf2QRj1/GquxkOGK2Z9dPTy7Fybw/vzjMX1cQe7GgPbPq/5Jyn5md3bTWJ/pB8A2BFaPYPQbnCpFmYIKgwhDX1vwbGoJL0HJESxvpkN6dTXG4xBkcq5ggq4=
     on:
       branch: master
-      tags: false
-      condition: $TRAVIS_PYTHON_VERSION = "3.5"
+      tags: true
