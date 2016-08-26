@@ -34,7 +34,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'django-appconf>=0.6.0',
+        'Django',
     ],
     zip_safe=False,
 )
