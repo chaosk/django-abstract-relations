@@ -34,7 +34,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'Django',
+        'Django>=1.9',
     ],
     zip_safe=False,
 )
