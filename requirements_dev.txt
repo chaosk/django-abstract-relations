@@ -7,6 +7,7 @@
 alabaster==0.7.9          # via sphinx
 babel==2.3.4              # via sphinx
 django-appconf==1.0.2
+django>=1.8
 docutils==0.12            # via sphinx
 imagesize==0.7.1          # via sphinx
 Jinja2==2.8               # via sphinx
