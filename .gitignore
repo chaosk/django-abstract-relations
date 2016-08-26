@@ -4,4 +4,6 @@
 .DS_Store
 .idea
 
+dist/
+Django_Abstract_Relations.egg-info/
 /docs/build/
