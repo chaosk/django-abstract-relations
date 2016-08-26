@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-# Following code is an improvement over this way of defining custom through models:
+# Following code is a tweak for this way of defining custom through models:
 
 # ----- Category models -----
 class Category(models.Model):
