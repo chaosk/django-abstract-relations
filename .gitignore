@@ -1,0 +1,7 @@
+*.pyc
+
+.cache
+.DS_Store
+.idea
+
+/docs/build/

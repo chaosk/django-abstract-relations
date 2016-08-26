@@ -1,0 +1,5 @@
+django-appconf
+pytest
+pytest-django
+sphinx
+sphinx-rtd-theme
